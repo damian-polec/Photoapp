@@ -1,0 +1,51 @@
+#home
+  height: 100vh
+  background-image: url('../images/livello-1.jpg')
+  background-size: cover
+  background-position: bottom
+  padding: 0
+  margin: 0
+  .header-container
+    color: #fff
+    margin: 0 auto
+    display: flex
+    height: 90vh
+    align-items: center
+    justify-content: center
+    flex-flow: column
+    padding: 0
+    h1
+      text-transform: uppercase
+      font-size: 60px
+      text-shadow: 0 0 10px #000
+    p
+      font-size: 16px
+      text-shadow: 0 0 10px #000
+      font-family: $medium
+    .btn
+      background: #16a085
+      border: 1px solid $green
+      color: #fff
+      font-size: 15px
+      width: 175px
+      height: 45px
+      text-transform: uppercase
+      transition: .5s
+      font-family: $light
+      &:hover, &:focus, &:active
+        background: #fff
+        color: $green
+        transition: .5s
+        outline: none
+        font-family: $medium
+  .social-buttons
+    text-align: center
+    a
+      text-decoration: none
+      color: #fff
+      padding: 15px
+      font-size: 25px
+      transition: .5s
+      &:hover
+        color: $green
+        transition: .5s

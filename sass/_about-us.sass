@@ -1,0 +1,54 @@
+#about-us
+  height: 500px
+  overflow: hidden
+  padding: 70px
+  .col-md-7
+    .slick-slide
+      &:active, &:focus
+        border: 0px
+        outline: none
+    img
+      padding: 40px 0 0 80px
+  .col-md-5
+    h2
+      text-transform: uppercase
+      color: $green
+      line-height: 1.2em
+    p
+      font-family: $medium
+      line-height: 2em
+      padding: 25px 0
+      opacity: 0.7
+    .total, .current, span
+        padding: 5px 6px
+        margin: 0
+        font-size: 15px
+        opacity: 1
+
+    .btn
+      font-family: $light
+      background: $green
+      color: #fff
+      margin: 20px 0
+      width: 190px
+      height: 50px
+      text-transform: uppercase
+      border: 1px solid $green
+      transition: .5s
+      &:hover, &:focus, &:active
+        background: #fff
+        color: $green
+        transition: .5s
+        outline: none
+    .controls
+      p
+        float: left
+        font-size: 20px
+        opacity: 1
+        &:first-of-type
+          padding: 0 10px 0 0
+        &:last-of-type
+          padding: 0 0 0 10px
+        .glyphicon
+          &:hover
+            cursor: pointer

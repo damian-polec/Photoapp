@@ -1,0 +1,491 @@
+@font-face {
+  font-family: Gotham-bold;
+  src: url("../fonts/Gotham Rounded Bold.otf"); }
+
+@font-face {
+  font-family: Gotham-light;
+  src: url("../fonts/GothamRounded-Light.otf"); }
+
+@font-face {
+  font-family: Gotham-medium;
+  src: url("../fonts/GothamRounded-Medium.otf"); }
+
+/*Fonts*/
+/*Colors*/
+body {
+  font-family: Gotham-bold;
+  background: #f5f6f7; }
+
+/*NAVIGATION*/
+.navbar .navbar-header {
+  text-align: center; }
+
+.navbar .navbar-nav {
+  float: none;
+  display: inline-block; }
+
+.navbar .navbar-collapse {
+  text-align: center; }
+
+.navbar .navbar-toggle {
+  float: none; }
+  .navbar .navbar-toggle .icon-bar {
+    background: #fff;
+    width: 35px;
+    height: 5px; }
+
+.navbar .navbar-brand img {
+  padding: 0 15px; }
+
+.navbar li:first-of-type a {
+  margin: 30px 25px 0 0; }
+
+.navbar li:last-of-type a {
+  margin: 30px 0 0 25px; }
+
+.navbar li a {
+  color: #fff;
+  font-size: 18px;
+  margin: 30px 15px 0 15px;
+  text-transform: uppercase;
+  transition: .5s; }
+  .navbar li a:hover, .navbar li a:focus {
+    background: none;
+    color: #16a085;
+    transition: .5s; }
+
+/*HOME SECTION*/
+#home {
+  height: 100vh;
+  background-image: url("../images/livello-1.jpg");
+  background-size: cover;
+  background-position: bottom;
+  padding: 0;
+  margin: 0; }
+  #home .header-container {
+    color: #fff;
+    margin: 0 auto;
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    padding: 0; }
+    #home .header-container h1 {
+      text-transform: uppercase;
+      font-size: 60px;
+      text-shadow: 0 0 10px #000; }
+    #home .header-container p {
+      font-size: 16px;
+      text-shadow: 0 0 10px #000;
+      font-family: Gotham-medium; }
+    #home .header-container .btn {
+      background: #16a085;
+      border: 1px solid #16a085;
+      color: #fff;
+      font-size: 15px;
+      width: 175px;
+      height: 45px;
+      text-transform: uppercase;
+      transition: .5s;
+      font-family: Gotham-light; }
+      #home .header-container .btn:hover, #home .header-container .btn:focus, #home .header-container .btn:active {
+        background: #fff;
+        color: #16a085;
+        transition: .5s;
+        outline: none;
+        font-family: Gotham-medium; }
+  #home .social-buttons {
+    text-align: center; }
+    #home .social-buttons a {
+      text-decoration: none;
+      color: #fff;
+      padding: 15px;
+      font-size: 25px;
+      transition: .5s; }
+      #home .social-buttons a:hover {
+        color: #16a085;
+        transition: .5s; }
+
+/*WELCOME SECTION*/
+#welcome {
+  height: 500px;
+  overflow: hidden;
+  padding: 60px 0 60px 20px;
+  background: #f5f6f7; }
+  #welcome .col-md-6 img {
+    position: relative;
+    top: 30px; }
+  #welcome .col-md-5 {
+    padding-left: 50px; }
+    #welcome .col-md-5 h2 {
+      text-transform: uppercase;
+      color: #16a085;
+      line-height: 1.2em; }
+    #welcome .col-md-5 p {
+      font-family: Gotham-medium;
+      line-height: 2em;
+      padding: 25px 0;
+      opacity: 0.7; }
+    #welcome .col-md-5 .btn {
+      font-family: Gotham-light;
+      background: #16a085;
+      color: #fff;
+      margin: 20px 0;
+      width: 190px;
+      height: 50px;
+      text-transform: uppercase;
+      border: 1px solid #16a085;
+      transition: .5s; }
+      #welcome .col-md-5 .btn:hover, #welcome .col-md-5 .btn:focus, #welcome .col-md-5 .btn:active {
+        background: #fff;
+        color: #16a085;
+        font-family: Gotham-medium;
+        transition: .5s;
+        outline: none; }
+
+/*ABOUT US SECTION*/
+#about-us {
+  height: 500px;
+  overflow: hidden;
+  padding: 70px; }
+  #about-us .col-md-7 .slick-slide:active, #about-us .col-md-7 .slick-slide:focus {
+    border: 0px;
+    outline: none; }
+  #about-us .col-md-7 img {
+    padding: 40px 0 0 80px; }
+  #about-us .col-md-5 h2 {
+    text-transform: uppercase;
+    color: #16a085;
+    line-height: 1.2em; }
+  #about-us .col-md-5 p {
+    font-family: Gotham-medium;
+    line-height: 2em;
+    padding: 25px 0;
+    opacity: 0.7; }
+  #about-us .col-md-5 .total, #about-us .col-md-5 .current, #about-us .col-md-5 span {
+    padding: 5px 6px;
+    margin: 0;
+    font-size: 15px;
+    opacity: 1; }
+  #about-us .col-md-5 .btn {
+    font-family: Gotham-light;
+    background: #16a085;
+    color: #fff;
+    margin: 20px 0;
+    width: 190px;
+    height: 50px;
+    text-transform: uppercase;
+    border: 1px solid #16a085;
+    transition: .5s; }
+    #about-us .col-md-5 .btn:hover, #about-us .col-md-5 .btn:focus, #about-us .col-md-5 .btn:active {
+      background: #fff;
+      color: #16a085;
+      transition: .5s;
+      outline: none; }
+  #about-us .col-md-5 .controls p {
+    float: left;
+    font-size: 20px;
+    opacity: 1; }
+    #about-us .col-md-5 .controls p:first-of-type {
+      padding: 0 10px 0 0; }
+    #about-us .col-md-5 .controls p:last-of-type {
+      padding: 0 0 0 10px; }
+    #about-us .col-md-5 .controls p .glyphicon:hover {
+      cursor: pointer; }
+
+/*COMMUNITY SECTION*/
+#community {
+  min-height: 300px;
+  padding: 45px 30px;
+  margin: 40px 0;
+  background: #f5f6f7;
+  position: relative;
+  overflow: hidden; }
+  #community .controls {
+    position: absolute;
+    top: 0;
+    right: 40px; }
+    #community .controls .glyphicon {
+      padding: 10px;
+      font-size: 15px; }
+      #community .controls .glyphicon:hover {
+        cursor: pointer; }
+  #community .col-md-9 {
+    text-align: center; }
+    #community .col-md-9 .slick-slide:focus, #community .col-md-9 .slick-slide:active {
+      outline: none; }
+    #community .col-md-9 img {
+      display: inline-block; }
+  #community .col-md-3 {
+    text-align: center; }
+    #community .col-md-3 h3 {
+      text-transform: uppercase; }
+    #community .col-md-3 p {
+      font-family: Gotham-medium;
+      line-height: 2em;
+      padding: 10px 0;
+      opacity: 0.7;
+      text-align: center; }
+
+/*SUBSCRIBE SECTION*/
+#subscribe {
+  height: 750px;
+  background-image: url("../images/livello-3.jpg");
+  background-position: center;
+  background-size: cover; }
+  #subscribe .subscribe-container {
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 50%; }
+    #subscribe .subscribe-container h2 {
+      color: #fff;
+      text-transform: uppercase;
+      padding: 20px 0;
+      text-shadow: 0 0 5px #000; }
+    #subscribe .subscribe-container input {
+      width: 300px;
+      height: 50px;
+      border-radius: 10px;
+      border: 0px;
+      font-size: 15px; }
+      #subscribe .subscribe-container input:hover, #subscribe .subscribe-container input:focus, #subscribe .subscribe-container input:active {
+        border: 0px;
+        border-color: none;
+        outline: none; }
+    #subscribe .subscribe-container .btn {
+      width: 54px;
+      height: 54px;
+      border-radius: 10px;
+      background: #16a085;
+      color: #fff;
+      border: 0px;
+      transition: .5s; }
+      #subscribe .subscribe-container .btn:hover, #subscribe .subscribe-container .btn:focus, #subscribe .subscribe-container .btn:active {
+        background: #fff;
+        color: #16a085;
+        outline: none;
+        transition: .5s; }
+
+/*DOWNLOAD SECTION*/
+#download {
+  min-height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  #download .container {
+    text-transform: uppercase; }
+    #download .container h2 {
+      padding: 15px; }
+    #download .container p {
+      font-family: Gotham-medium;
+      padding: 15px; }
+    #download .container .btn {
+      background: #1abc9c;
+      width: 300px;
+      height: 70px;
+      text-align: left;
+      font-size: 25px;
+      border-radius: 5px;
+      padding: 15px 0 0 20px;
+      border: 0px;
+      margin: 15px;
+      color: #fff;
+      text-transform: uppercase;
+      text-shadow: 0 0 2px #000;
+      transition: .5s; }
+      #download .container .btn:hover, #download .container .btn:focus, #download .container .btn:active {
+        transition: .5s;
+        background: #16a085;
+        outline: none; }
+        #download .container .btn:hover span, #download .container .btn:focus span, #download .container .btn:active span {
+          background: #1abc9c;
+          transition: .5s; }
+    #download .container span {
+      display: inline-block;
+      font-size: 30px;
+      background: #16a085;
+      height: 70px;
+      width: 70px;
+      float: right;
+      text-align: center;
+      padding: 15px;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+      margin-top: -15px;
+      transition: .5s; }
+
+/*FOOTER SECTION*/
+footer {
+  background: #fff;
+  padding: 30px;
+  overflow: hidden; }
+  footer .links {
+    line-height: 2em;
+    padding: 15px 0;
+    text-transform: uppercase; }
+    footer .links a {
+      text-decoration: none;
+      color: #000;
+      font-size: 16px; }
+      footer .links a:hover {
+        text-decoration: underline; }
+      footer .links a:focus, footer .links a:active {
+        outline: none; }
+    footer .links span {
+      font-size: 20px;
+      color: #16a085; }
+  footer .col-md-12 {
+    color: #000;
+    font-size: 16px; }
+  footer .col-md-1 img {
+    padding: 0;
+    position: relative;
+    right: 10px;
+    top: 10px; }
+
+/*MEDIA QUERIES*/
+@media (max-width: 1220px) {
+  #community .controls {
+    position: absolute;
+    right: 35px;
+    top: 0;
+    z-index: 300; } }
+
+@media (max-width: 1038px) {
+  #welcome .col-md-6 img {
+    height: 600px;
+    top: 100px; } }
+
+@media (max-width: 991px) {
+  #welcome .col-sm-6 img {
+    height: 550px;
+    top: 150px;
+    left: -50px; }
+  #about-us {
+    height: 500px; }
+    #about-us .about-slider img {
+      height: 550px; }
+    #about-us .col-sm-5 p {
+      padding: 10px 0;
+      line-height: 1.5em; }
+    #about-us .col-sm-5 .btn {
+      margin: 0; }
+  #community {
+    height: 420px; }
+    #community .controls {
+      top: 170px;
+      right: 50px; }
+    #community .col-md-3 {
+      margin-bottom: 40px; } }
+
+@media (max-width: 799px) {
+  #about-us {
+    height: 550px; }
+    #about-us .about-slider img {
+      height: 420px;
+      padding: 40px 0 0 0; }
+    #about-us .col-sm-5 p {
+      padding: 10px 0;
+      line-height: 1.5em; }
+    #about-us .col-sm-5 .btn {
+      margin: 0; } }
+
+/*MEDIA QUERIES MAX WIDTH 767px*/
+@media (max-width: 767px) {
+  /*NAVBAR MEDIA*/
+  .navbar {
+    background: #2b1e29 !important; }
+  .navbar-collapse .navbar-brand {
+    display: none; }
+  .navbar-collapse li a {
+    margin: 10px 0; }
+  .navbar-collapse li:first-of-type a {
+    margin: 0; }
+  .navbar-collapse li:last-of-type a {
+    margin: 0; }
+  /*WELCOME MEDIA*/
+  #welcome .col-xs-12 img {
+    height: 400px;
+    top: -100px;
+    left: 35%; }
+  #subscribe {
+    min-height: 400px; }
+  #download .container .btn {
+    width: 250px;
+    height: 50px;
+    font-size: 20px; }
+  #download .container span {
+    font-size: 25px;
+    height: 50px;
+    width: 50px;
+    padding: 10px; } }
+
+@media (max-width: 613px) {
+  #about-us {
+    height: auto;
+    padding: 0 0 60px 60px; }
+    #about-us .about-slider {
+      display: none; }
+    #about-us .col-xs-6 {
+      width: 100%; }
+      #about-us .col-xs-6 .indicator, #about-us .col-xs-6 .controls {
+        display: none; }
+  #download .container .btn {
+    width: 200px;
+    height: 50px;
+    font-size: 16px; }
+  #download .container span {
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    padding: 10px; } }
+
+@media (max-width: 560px) {
+  #welcome {
+    height: auto; }
+    #welcome .col-xs-12 img {
+      display: none; } }
+
+@media (max-width: 499px) {
+  #community .controls {
+    top: 190px;
+    right: 35vw; }
+    #community .controls .glyphicon {
+      font-size: 25px; }
+  #community .col-md-9 img {
+    min-height: 200px; } }
+
+/*MEDIA QUERIES MAX WIDTH 375px*/
+@media (max-width: 466px) {
+  footer .col-md-1 {
+    display: none; }
+  footer .col-md-11 {
+    text-align: center; }
+    footer .col-md-11 a {
+      font-size: 13px;
+      white-space: nowrap; } }
+
+@media (max-width: 375px) {
+  /*HOME MEDIA*/
+  #home .header-container h1 {
+    font-size: 40px; }
+  #welcome .col-md-5 {
+    text-align: center;
+    padding: 0 15px; }
+  #about-us {
+    padding: 0 15px 10px 30px;
+    text-align: center; }
+  #community {
+    height: auto; }
+    #community .col-md-9 {
+      display: none; }
+    #community .controls {
+      display: none; }
+  footer .col-md-11 a {
+    padding: 0 5px; }
+  footer .col-md-11 span {
+    display: none; } }
+
+/*# sourceMappingURL=style.css.map */

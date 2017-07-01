@@ -1,0 +1,20 @@
+{
+  "name": "projekt-3",
+  "version": "1.0.0",
+  "description": "Projekt nr 3 cut psd",
+  "main": "index.js",
+  "scripts": {
+    "test": "projekt3"
+  },
+  "keywords": [
+    "projekt3"
+  ],
+  "author": "Damian Polec",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0"
+  }
+}
